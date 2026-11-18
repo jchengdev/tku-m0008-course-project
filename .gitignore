@@ -1,0 +1,61 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments (uv / venv)
+.venv/
+venv/
+ENV/
+env/
+
+# Linters, Formatters & Testing
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Streamlit & Secrets (NEVER commit API keys)
+.streamlit/secrets.toml
+*.pem
+.env
+.env.*
+
+# ChromaDB & Local Vector Databases
+.chroma_db/
+chroma_db/
+*.sqlite3
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files (Windows, macOS, Linux)
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

@@ -1,0 +1,9 @@
+# Automatically treat all text files as text and normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Explicitly ensure code and configuration files use LF line endings
+*.py    text eol=lf
+*.toml  text eol=lf
+*.lock  text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
